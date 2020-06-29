@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #ADbef6, #f74782);
+}
+
+.container {
+    text-align: center;
+}
+
+.recycle_symbol {
+    height: 90px;
+    width: 90px;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 770px) {
+    .title {
+        font-size: 90%;
+    }
+    .recycle_symbol {
+        height: 70px;
+        width: 70px;
+    }
+    .info {
+    font-size: 70%;
+}
+}
+
+@media only screen and (max-width: 730px) {
+    .title {
+        font-size: 70%;
+    }
+    .info {
+    font-size: 60%;
+}
+}
+
+@media only screen and (max-width: 550px) {
+    .title {
+        font-size: 50%;
+    }
+    p {
+        font-weight: bold;
+    }
+    .recycle_symbol {
+        height: 55px;
+        width: 55px;
+    }
+    .info {
+        font-size: 40%;
+}
+}
+
+.title {
+    display: inline-block;
+    margin: 0.2% 0%;
+    width: 25%;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 281%;
+    margin: 0% 2%;
+}
+
+p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 100%;
+    margin-top: 0;
+}
+
+
